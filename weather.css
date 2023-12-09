@@ -130,3 +130,23 @@ margin-left: 10px;
 
 
 }
+
+@media only screen and (max-width: 450px) {
+  body {
+    background-image: url(Safeimagekit-resized-img.png);
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  
+  }
+  .container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    height: 420px;
+    width: 360px;
+    border-color: white;
+  }
+}
