@@ -118,6 +118,14 @@ function getValue(){
 	 return checkWeather(cityName);
 }
 
+addEventListener("keypress", function(event){
+	if(event.key === "Enter"){
+		// event.preventDefault();
+		getValue();
+		console.log("Hello");
+	}
+});
+
 
 
 
